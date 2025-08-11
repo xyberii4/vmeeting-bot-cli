@@ -1,0 +1,17 @@
+[project]
+name = "vmeeting-bot-cli"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+  { name = "xyberii4", email = "61101529+xyberii4@users.noreply.github.com" },
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+vmb-cli = "vmeeting_bot_cli:cli.main"
+
+[build-system]
+requires = ["uv_build>=0.8.8,<0.9.0"]
+build-backend = "uv_build"

@@ -1,0 +1,10 @@
+undetected-chromedriver
+setuptools
+livekit
+livekit-api
+numpy
+matplotlib
+click
+python-dotenv
+pyyaml
+

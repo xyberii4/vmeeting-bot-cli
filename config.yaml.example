@@ -1,0 +1,9 @@
+audio_visualizer:
+  max_samples: 96000
+  sample_rate: 48000
+  frame_duration : 0.01 #seconds
+
+selenium_bot:
+  name : Bot
+  browser_executable : CHROMIUM_BROWSER_EXEC_PATH
+  driver_executable : CHROMEDRIVER_EXEC_PATH
